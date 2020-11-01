@@ -5,16 +5,23 @@
   margin: 0;
   box-sizing: border-box;
 }
-html,
-body {
-  width: 100%;
-  height: 100%;
-}
-body {
-  background-color: #000000;
 
-  /* center image on the page */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.board {
+  margin: 50px;
+  width: 400px;
+  background-color: rgb(185, 248, 229);
+}
+
+.board div {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.dark {
+  background-color: black;
+}
+
+.light {
+  background-color: white;
 }
